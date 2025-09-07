@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "name": "greet",
+      "utterances": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "name": "goodbye",
+      "utterances": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk to you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you next time!"
+      ]
+    },
+    {
+      "name": "order_status",
+      "utterances": [
+        "where is my order",
+        "track my order",
+        "order status",
+        "has my package shipped",
+        "when will my order arrive"
+      ],
+      "responses": [
+        "Can you provide your order ID to check the status?"
+      ]
+    },
+    {
+      "name": "return_policy",
+      "utterances": [
+        "what is your return policy",
+        "how do i return an item",
+        "can i get a refund",
+        "return window"
+      ],
+      "responses": [
+        "You can return items within 30 days in original condition. Need help starting a return?"
+      ]
+    },
+    {
+      "name": "shipping_info",
+      "utterances": [
+        "how much is shipping",
+        "do you ship internationally",
+        "shipping options",
+        "delivery time"
+      ],
+      "responses": [
+        "Standard shipping takes 3-5 business days. International shipping available for select regions."
+      ]
+    },
+    {
+      "name": "product_search",
+      "utterances": [
+        "show me running shoes",
+        "i need a laptop",
+        "find me wireless earbuds",
+        "do you have jackets",
+        "looking for iphone case"
+      ],
+      "responses": [
+        "Here are some products that match your query."
+      ]
+    }
+  ]
+}
+
