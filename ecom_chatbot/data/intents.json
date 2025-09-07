@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {"intent": "greet", "examples": ["hi", "hello", "hey", "good morning", "good evening"]},
+    {"intent": "goodbye", "examples": ["bye", "goodbye", "see you", "talk later"]},
+    {"intent": "thanks", "examples": ["thanks", "thank you", "appreciate it"]},
+
+    {"intent": "track_order", "examples": [
+      "where is my order",
+      "track my order",
+      "order status",
+      "track order ORD12345",
+      "what is the status of ORD54321"
+    ]},
+
+    {"intent": "cancel_order", "examples": [
+      "cancel my order",
+      "I want to cancel order ORD12345",
+      "cancel order",
+      "please cancel ORD54321"
+    ]},
+
+    {"intent": "return_policy", "examples": [
+      "what is your return policy",
+      "returns",
+      "how to return",
+      "can I return an item"
+    ]},
+
+    {"intent": "refund_policy", "examples": [
+      "refund policy",
+      "when will I get refund",
+      "refunds",
+      "how long for a refund"
+    ]},
+
+    {"intent": "product_search", "examples": [
+      "I'm looking for headphones",
+      "show me laptops",
+      "search for phone",
+      "list available products",
+      "what phones do you have"
+    ]},
+
+    {"intent": "product_availability", "examples": [
+      "is iPhone 13 in stock",
+      "do you have MacBook Air",
+      "availability of Samsung TV",
+      "is there any PlayStation 5 right now"
+    ]},
+
+    {"intent": "faq", "examples": [
+      "shipping fee",
+      "delivery time",
+      "free shipping",
+      "payment methods",
+      "how long does shipping take"
+    ]},
+
+    {"intent": "smalltalk", "examples": [
+      "how are you",
+      "what's up",
+      "who are you",
+      "tell me about yourself"
+    ]}
+  ]
+}

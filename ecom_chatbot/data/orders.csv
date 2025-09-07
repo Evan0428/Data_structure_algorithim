@@ -1,0 +1,5 @@
+order_id,product_name,status
+ORD12345,iPhone 13,Processing
+ORD54321,PlayStation 5,Shipped
+ORD11111,MacBook Air,Delivered
+ORD22222,Samsung TV 55,Placed
